@@ -1,6 +1,6 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'AIzaSyCvOJXICyVSWENkJxgJbUPwuVCBO6V-vOo',
+  apiKey: {process.env.REACT_APP_API},
   authDomain: 'clone-de3f6.firebaseapp.com',
   projectId: 'clone-de3f6',
   storageBucket: 'clone-de3f6.appspot.com',
