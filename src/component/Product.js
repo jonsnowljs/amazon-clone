@@ -8,10 +8,10 @@ function Product(props) {
         <p>{props.title}</p>
         <p className="product__price">
           <small>$</small>
-          <strong>19.99</strong>
+          <strong>{props.price}</strong>
         </p>
         <div className="product__rating">
-          <p>star</p>
+          <p>{props.rating}</p>
         </div>
       </div>
       <img src={props.image} alt={props.title}/>
