@@ -4,13 +4,12 @@ import Header from './component/Header';
 import Home from './component/Home';
 import Product from './component/Product';
 
-
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Home/>
-      <Product/>
+      <Header />
+      <Home />
+      <Product />
     </div>
   );
 }

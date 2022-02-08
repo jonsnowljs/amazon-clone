@@ -18,6 +18,7 @@ function Product(props) {
       <button>Add to Basket</button>
     </div>
   );
+
 }
 
 export default Product;
